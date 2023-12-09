@@ -1,0 +1,91 @@
+#hero {
+  height: 100vh;
+  background: url('../images/bg_main.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#topbar {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 70px;
+  background: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.hero__content {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 70px;
+  color: var(--text-color);
+}
+
+.hero__content .hero__tag {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.hero__content .hero__heading {
+  font-size: 52px;
+  line-height: 1.1;
+  margin: 0 0 20px;
+  font-weight: 700;
+}
+
+.hero__btn__wrapper button {
+  padding: 13px 26px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  background: #fff;
+  transition: all 0.3s;
+}
+
+.hero__btn__wrapper button:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  background: rgba(128, 128, 128, 0.392);
+  color: #fff;
+}
+
+/* Section under hero section */
+.content {
+  padding: 90px 0 60px;
+}
+
+.content .content__heading {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.content .content__para {
+  font-size: 15px;
+}
+
+.content__para .loadMore {
+  cursor: pointer;
+  color: purple;
+  transition: color 0.3s;
+}
+
+.content__para .loadMore:hover {
+  color: blueviolet;
+}
+
+.headLine {
+  background: var(--bg-yellowish-color);
+  text-align: center;
+  padding: 50px 0;
+}
+
+.headLine h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+}

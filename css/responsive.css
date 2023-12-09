@@ -1,0 +1,114 @@
+@media (max-width: 768px) {
+  /* ----------------------------------------------- */
+  /* Hero Section */
+  /* ----------------------------------------------- */
+  .hero__content {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .hero__content .hero__heading {
+    font-size: 50px;
+    margin-inline: auto;
+    width: 100%;
+    font-size: calc(1.77rem + (3.2 - 1.77) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(
+      1.4 * (1.77rem + (3.2 - 1.77) * ((100vw - 20rem) / (48 - 20)))
+    );
+  }
+
+  .hero__btn__wrapper button {
+    font-size: 12px;
+  }
+
+  /* ----------------------------------------------- */
+  /* Under Hero Section */
+  /* ----------------------------------------------- */
+  .content .content__heading {
+    font-size: 27px;
+  }
+
+  /* ----------------------------------------------- */
+  /* Headlines */
+  /* ----------------------------------------------- */
+  .headLine h3 {
+    padding-inline: 20px;
+    font-size: calc(0.9rem + (3.2 - 1.77) * ((100vw - 20rem) / (48 - 20)));
+  }
+
+  /* ----------------------------------------------- */
+  /* Products Section */
+  /* ----------------------------------------------- */
+  .product__head {
+    text-align: center;
+  }
+
+  .card {
+    margin-block: 20px;
+  }
+
+  .product__wrapper {
+    margin-block: 14px;
+  }
+
+  .c__row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* ----------------------------------------------- */
+  /* Discount Section */
+  /* ----------------------------------------------- */
+  .discount {
+    padding: 30px 0px;
+  }
+
+  .discount__content {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+
+  .discount__content .left h2 {
+    font-size: calc(0.9rem + (3.2 - 1.77) * ((100vw - 20rem) / (48 - 20)));
+    margin-inline: 20px;
+  }
+
+  .discount__content .right .hero__btn__wrapper {
+    margin-block: 20px;
+  }
+
+  /* ----------------------------------------------- */
+  /* Reason Section */
+  /* ----------------------------------------------- */
+  .card__ {
+    text-align: center;
+  }
+
+  .top__wrapper .top {
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  /* ----------------------------------------------- */
+  /* Footer */
+  /* ----------------------------------------------- */
+  footer {
+    padding-bottom: 20px;
+  }
+
+  .footer__wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .footer__wrapper .left {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 365px) {
+  .footer__wrapper .left p {
+    font-size: 14px !important;
+  }
+}

@@ -1,0 +1,37 @@
+footer {
+  margin-top: 30px;
+  padding: 60px;
+  background: var(--bg-yellowish-color);
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right .links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.links li {
+  height: 3em;
+  width: 3em;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+  padding: 0.6rem 0.8rem;
+  border-radius: 50%;
+  transition: all 0.3s ease-out 0s;
+  background: var(--footer-color);
+  cursor: pointer;
+}
+
+.links li:hover {
+  transform: scale(1.2);
+  color: var(--footer-color);
+  background: var(--bg-yellowish-color);
+  border: 1px dotted var(--footer-color);
+}

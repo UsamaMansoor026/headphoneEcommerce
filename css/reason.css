@@ -1,0 +1,38 @@
+.card__ {
+  margin: 60px 0 30px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.top span {
+  position: absolute;
+  z-index: 0;
+  color: var(--bg-yellowish-color);
+  font-weight: 600;
+  font-size: 70px;
+}
+
+.top h3 {
+  z-index: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.bottom {
+  margin-top: 21px;
+}
+
+.bottom p:first-child {
+  margin-bottom: 0;
+  color: var(--footer-color);
+}
+
+.bottom .learnMore {
+  color: var(--bg-yellowish-color);
+  cursor: pointer;
+  margin-top: 5px;
+}
